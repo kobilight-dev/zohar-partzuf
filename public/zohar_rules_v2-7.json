@@ -1,0 +1,6895 @@
+{
+ "meta": {
+  "title": "מסד נתונים — חכמת הפרצוף וכף היד",
+  "source": "זוהר פרשת יתרו + פירוש הסולם; ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+  "version": "2.7",
+  "principle": "כפילות מחזקת אמת — תכונה המופיעה בשני איברים ומעלה = ודאות גבוהה",
+  "total_rows": 267,
+  "active_rules": 256,
+  "counts": {
+   "from_v2_4": 184,
+   "from_book_32417": 83,
+   "single_rules": 218,
+   "combos": 38,
+   "duplicates": 5,
+   "range_placeholders": 6
+  },
+  "id_prefixes": {
+   "Z": "מאגר זוהר קודם (v2.4)",
+   "N": "תוספות במאגר הקודם",
+   "D": "צירופי כפילות (ודאות מוגברת)",
+   "B": "ספר חכמת היד והפרצוף"
+  },
+  "note_combo_numbers": "המספרים בסוגריים בתוך תנאי הצירופים הם מהמספור הישן ואינם בהכרח זהים למזהי Z",
+  "note_book": "אין הדברים מוכרחים — הסימנים מעידים על נטייה ולא על גזירה",
+  "fields": {
+   "line": "קו: חסד / גבורה / תפארת / ללא קו (חכמה, מזל, פרנסה, פיזור — מחוץ לציר שלושת הקווים)",
+   "line_confidence": "high = מפורש בפירוש; low = הכרעה פרשנית, מומלץ לאשר ידנית",
+   "valence": "1 = מעלה, 0 = מעורב/ניטרלי, -1 = חיסרון לתיקון",
+   "domain": "עסקי / זוגי / כללי — אילו כללים נכנסים לכל סוג התאמה",
+   "measure": "מיפוי למדד ב-yitroMeasure.js (null = נבדק בראייה בלבד)"
+  },
+  "verification": {
+   "date": "2026-09-30",
+   "scope": "94 הכללים שסומנו low בגרסה 2.6, ועוד 7 ממצאים על כללים אחרים",
+   "sources": [
+    "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+    "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+    "יהל אור לגר\"א, שמות ח\"ג רנד ע\"א (ויקיטקסט); זוהר חדש ויצא (לח = מים = חסד)",
+    "פרדס רמונים ח יא, כג א (ויקיטקסט)"
+   ],
+   "method": "השוואה ללשון המקור בלבד. קו שונה רק כשהמקור קובע אותו במפורש או בעקיפין ברורה; פירוש (meaning) לא שונה בשום כלל — סתירות מסומנות להכרעתך",
+   "statuses": [
+    "מאומת",
+    "מאומת בעקיפין",
+    "סתירה למקור",
+    "לא נמצא מקור",
+    "צירוף — אין מקור ישיר"
+   ]
+  }
+ },
+ "organs_list": [
+  "מצח",
+  "עיניים",
+  "גבות",
+  "שיער",
+  "אוזניים",
+  "חוטם",
+  "שפתיים",
+  "שיניים",
+  "סנטר",
+  "לחיים",
+  "עור",
+  "קול",
+  "צוואר",
+  "כתפיים",
+  "ידיים",
+  "אצבעות",
+  "קווים ביד",
+  "ציפורניים",
+  "זקן",
+  "פה",
+  "פנים",
+  "תיקון נשמה עתיקה",
+  "מארי דרזין (בעל סודות)",
+  "דין קשה וסכנה",
+  "הארת פנים עילאית",
+  "הפכפכות רוחנית",
+  "דיוקן ה\"חסיד עילאה\"",
+  "דיוקן ה\"בעל מחלוקת\"",
+  "דיוקן ה\"משכיל ופרוש\"",
+  "דיוקן ה\"מאריה דמזלא\"",
+  "דעת והנהגה",
+  "דין ורוגז",
+  "סוד ופרישות",
+  "תמימות וחסד",
+  "חוסר יציבות",
+  "מרץ וחומר",
+  "חכמה ותיקון",
+  "שיער + מצח",
+  "מצח + עיניים",
+  "גבות + חוטם",
+  "עיניים + שפתיים",
+  "מצח + ידיים",
+  "שיער + גבות",
+  "אוזניים + פה",
+  "חוטם + סנטר",
+  "עיניים + עור",
+  "מצח + שפתיים",
+  "פנים + הליכה",
+  "ידיים + גוף",
+  "זקן + עיניים",
+  "מצח + גבות",
+  "קול + כתפיים",
+  "כף יד — כלל",
+  "כף יד — קווים",
+  "כפילות — חכמה ואינטלקט",
+  "כפילות — נדיבות",
+  "כפילות — כוח הנהגה",
+  "כפילות — דינים וכעס",
+  "כפילות — חוסר אמינות",
+  "צחוק",
+  "ראש",
+  "חזה",
+  "מזג (יסודות)"
+ ],
+ "by_organ": {
+  "מצח": [
+   {
+    "id": "Z1",
+    "organ": "מצח",
+    "condition": "רחב וחלק מאוד",
+    "meaning": "רצון פתוח, נטייה לחסד, חסר \"דינים\" מעכבים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "foreheadWidthRatio",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z2",
+    "organ": "מצח",
+    "condition": "צר ונמוך",
+    "meaning": "דעת מצומצמת, נטייה לקטנות מוחין וחומריות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "foreheadWidthRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z3",
+    "organ": "מצח",
+    "condition": "שלושה קמטים רוחביים ברורים",
+    "meaning": "השלמת מוחין של חכמה, בינה ודעת. אדם מיושב",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "line_previous": "תפארת",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "שרטוטי מצח ארוכים באים מצד החסד; שבורים וקמוטים — מצד הגבורה"
+    }
+   },
+   {
+    "id": "Z4",
+    "organ": "מצח",
+    "condition": "קמטים הנחתכים על ידי קמט אנכי",
+    "meaning": "קונפליקט בין רצון לביצוע, נטייה לעצבנות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "קמטים שבורים/נחתכים = \"שברים\" = צד הגבורה"
+    }
+   },
+   {
+    "id": "Z5",
+    "organ": "מצח",
+    "condition": "קמטים בצורת האות 'ח'",
+    "meaning": "אדם שעבר תיקון של מידת החסידות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z6",
+    "organ": "מצח",
+    "condition": "קמטים עמוקים מאוד גם במנוחה",
+    "meaning": "ייסורים שעברו על האדם וחקקו בו דינים קבועים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z7",
+    "organ": "מצח",
+    "condition": "בולט קדימה",
+    "meaning": "אופי עקשן, \"מצח נחושה\", קושי בהתבטלות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z8",
+    "organ": "מצח",
+    "condition": "עור מצח מבריק תמיד",
+    "meaning": "אדם שזוכה להארת חכמה (\"חכמת אדם תאיר פניו\")",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z9",
+    "organ": "מצח",
+    "condition": "קמטים מטושטשים ולא קבועים",
+    "meaning": "חוסר יציבות ברצון, אדם שמשנה דעתו בתכיפות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z10",
+    "organ": "מצח",
+    "condition": "קמט אחד בודד לרוחב כל המצח",
+    "meaning": "אדם בעל מטרה אחת גדולה בחייו, ריכוז מאמץ",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z11",
+    "organ": "מצח",
+    "condition": "קמטים דמויי סולם",
+    "meaning": "התפתחות רוחנית הדרגתית, יכולת למידה מטעויות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z12",
+    "organ": "מצח",
+    "condition": "נקודת חן במרכז המצח",
+    "meaning": "סימן למזל טוב מולד, הגנה משמים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z85",
+    "organ": "מצח",
+    "condition": "קמטים אנכיים בין הגבות (2)",
+    "meaning": "ריכוז פנימי עמוק, נטייה לדין",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z86",
+    "organ": "מצח",
+    "condition": "קמטים אנכיים בין הגבות (3)",
+    "meaning": "גבורה הממותקת בחסדים, אדם רציני והוגן",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z87",
+    "organ": "מצח",
+    "condition": "קמטים רוחביים שבורים",
+    "meaning": "חוסר עקביות בביצוע תוכניות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z105",
+    "organ": "מצח",
+    "condition": "קמט אלכסוני אחד",
+    "meaning": "אופי לא שגרתי, נטייה לחידושים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z106",
+    "organ": "מצח",
+    "condition": "עור המצח מחוספס",
+    "meaning": "קשיי למידה או קשיים בתיקון המחשבה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z118",
+    "organ": "מצח",
+    "condition": "קמט בצורת 'V'",
+    "meaning": "מוח חריף, יכולת ניתוח והפרדה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "N1",
+    "organ": "מצח",
+    "condition": "מצח אליפטי",
+    "meaning": "רוח נעורים, לקיחת סיכונים, חברים ומשפחה בראש",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "N2",
+    "organ": "מצח",
+    "condition": "מצח מעוגל",
+    "meaning": "ממוזל, אוהב להתפרע וליהנות מהרגע",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "הקו מאומת: מצח קצר ועגול — חכם, רחמן, \"האהבה היא הצד שלו\", מתרחק מדין. אבל הפירוש במאגר (ממוזל, אוהב להתפרע) אינו כלשון הזוהר"
+    }
+   },
+   {
+    "id": "B32",
+    "organ": "מצח",
+    "condition": "קווי מצח גדולים, שלמים, ארוכים ורחבים",
+    "meaning": "טוב כל ימיו (הספר מוסיף: הכול תלוי בתשובה ובמעשים טובים)",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 12,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "יציבות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B33",
+    "organ": "מצח",
+    "condition": "קווי מצח מפוצלים כולם",
+    "meaning": "נטייה לרע לפי לשון הספר — ואינו מוכרח",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 12,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חוסר אמינות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B34",
+    "organ": "מצח",
+    "condition": "מצח עגול",
+    "meaning": "חכם גדול ונבון, שמח לכל אדם, בעל מידות טובות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 14,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "חסד",
+     "חברותיות"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B35",
+    "organ": "מצח",
+    "condition": "מצח ישר ושטוח, בלי עגילות",
+    "meaning": "בעל מריבה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 14,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "עיניים": [
+   {
+    "id": "Z13",
+    "organ": "עיניים",
+    "condition": "לבן דומיננטי וצלול",
+    "meaning": "צד החסד (אריה), נדיבות, עין טובה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"עיינין חוורין... מאריה דחסד\", מרכבתן אריה"
+    }
+   },
+   {
+    "id": "Z14",
+    "organ": "עיניים",
+    "condition": "אדמדמות (נימים בולטים)",
+    "meaning": "צד הגבורה (שור), נטייה לכעס, כוח מלחמה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"עיינין סומקין... מרכבה דחיה דשור... מהשמאל\""
+    }
+   },
+   {
+    "id": "Z15",
+    "organ": "עיניים",
+    "condition": "אישון שחור גדול מאוד",
+    "meaning": "כלי קיבול גדול לאור, סקרנות עמוקה, מלכות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "גוון שחור בעין = מלכות (מחוץ לשלושת הקווים), כפי שהמאגר עצמו מציין \"מלכות\""
+    }
+   },
+   {
+    "id": "Z16",
+    "organ": "עיניים",
+    "condition": "גוון ירוק/צהבהב בגלגל העין",
+    "meaning": "צד התפארת (נשר), פיקחות, איזון מעשי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz; פרדס רמונים ח יא, כג א (ויקיטקסט)",
+     "note": "ירוק = תפארת; הנשר = חיית התפארת"
+    }
+   },
+   {
+    "id": "Z17",
+    "organ": "עיניים",
+    "condition": "מבט ישר שאינו זז",
+    "meaning": "אמת פנימית, יושר לבב, \"אורח מישרים\"",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z18",
+    "organ": "עיניים",
+    "condition": "מבט מתרוצץ",
+    "meaning": "חוסר אמינות, פחד פנימי, נטייה לרמייה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z19",
+    "organ": "עיניים",
+    "condition": "עין אחת גדולה מחברתה",
+    "meaning": "חוסר איזון בין קו ימין לקו שמאל בנפש",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z20",
+    "organ": "עיניים",
+    "condition": "עפעפיים מכסים חצי מהאישון",
+    "meaning": "ביישנות, צניעות, או הסתרת סודות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "eyeOpenness",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z21",
+    "organ": "עיניים",
+    "condition": "שקועות עמוק",
+    "meaning": "התבודדות, פרישות, עומק מחשבתי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "הקו מאומת: עיניים שקועות נזכרות בציור \"פני שור\" (שמאל) ובאדם שהולך בדרך לא טובה; וגם \"עין שאינה שקועה — אינו רמאי\". הפירוש החיובי במאגר (עומק, פרישות) סותר"
+    }
+   },
+   {
+    "id": "Z22",
+    "organ": "עיניים",
+    "condition": "בולטות",
+    "meaning": "החצנה, רצון להיראות, הארה חיצונית ללא כלי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "עיניים גדולות וגבוהות שהלובן מכסה בהן — גבה לב, עושה טוב \"למעבד ליה שם\". תואם את \"רצון להיראות\""
+    }
+   },
+   {
+    "id": "Z23",
+    "organ": "עיניים",
+    "condition": "ריסים ארוכים וכהים",
+    "meaning": "הגנה על החכמה, סינון גירויים חיצוניים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z24",
+    "organ": "עיניים",
+    "condition": "דמעות תמידיות (לחות)",
+    "meaning": "נפש רגישה, קרבה לעולם התשובה והרחמים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z25",
+    "organ": "עיניים",
+    "condition": "צבע עין משתנה",
+    "meaning": "השפעה חזקה של ה\"מזל\", חוסר יציבות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z26",
+    "organ": "עיניים",
+    "condition": "נקודה שחורה בתוך הלובן",
+    "meaning": "פגם קטן במידת החסד, נטייה לדין נסתר",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z88",
+    "organ": "עיניים",
+    "condition": "צבע עין ימין שונה משמאל",
+    "meaning": "קונפליקט פנימי עמוק בין השפעות שונות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z89",
+    "organ": "עיניים",
+    "condition": "בולטות עם לובן סביב האישון",
+    "meaning": "פחד מתמיד, מתח רוחני גבוה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "במקור: עיניים גדולות שהלובן שולט בהן = גאווה, לא פחד. הקו והפירוש דורשים הכרעה"
+    }
+   },
+   {
+    "id": "Z107",
+    "organ": "עיניים",
+    "condition": "עפעף תחתון בולט (שקיות)",
+    "meaning": "עייפות הנשמה, עומס רגשי רב",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z108",
+    "organ": "עיניים",
+    "condition": "מבט שפוף (למטה)",
+    "meaning": "ענווה אמיתית, או תחושת אשמה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "N3",
+    "organ": "עיניים",
+    "condition": "עין ימין גדולה משמאל",
+    "meaning": "כוח חסד דומיננטי — נדיבות ורחמים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N4",
+    "organ": "עיניים",
+    "condition": "עין שמאל גדולה מימין",
+    "meaning": "כוח דין — תובעני, עקרוני, מחמיר",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B45",
+    "organ": "עיניים",
+    "condition": "עיניים גדולות ופקוחות",
+    "meaning": "עזות פנים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "eyeOpenness",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "B46",
+    "organ": "עיניים",
+    "condition": "עיניים בינוניות בצבע חום או שחור",
+    "meaning": "חכם ונאמן",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "נאמנות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "line_previous": "תפארת",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "עיניים שחורות על קו היושר — מצד השבת/המלכות, עין טובה ונדיב; מלכות אינה אחד משלושת הקווים"
+    }
+   },
+   {
+    "id": "B47",
+    "organ": "עיניים",
+    "condition": "עיניים מאירות ומבהיקות",
+    "meaning": "בעל מידות טובות; נאמן ומהיר במלאכתו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד",
+     "נאמנות",
+     "ביצוע"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B48",
+    "organ": "עיניים",
+    "condition": "עיניים הנעות הנה והנה",
+    "meaning": "איש שאינו מיושב — לפי לשון הספר \"איש בליעל\"",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חוסר אמינות",
+     "פיזור"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B49",
+    "organ": "עיניים",
+    "condition": "עיניים פותחות ונסגרות תמיד (מצמוץ מרובה)",
+    "meaning": "רך לבב ופחד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פיזור"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B50",
+    "organ": "עיניים",
+    "condition": "גלגל עין בגוונים מתחלפים (לבן, כהה וירקרק)",
+    "meaning": "שמח, חושב מחשבות לטובה, ומסוגל ללמוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חברותיות",
+     "חכמה",
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B51",
+    "organ": "עיניים",
+    "condition": "עיניים ירוקות מעורבות",
+    "meaning": "רחמן",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "גבות": [
+   {
+    "id": "Z27",
+    "organ": "גבות",
+    "condition": "עבות ומחוברות",
+    "meaning": "דינים חזקים, כוח חיים פראי, קושי בריסון",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z28",
+    "organ": "גבות",
+    "condition": "דקות ובהירות",
+    "meaning": "חולשת הגבורות, אופי נוח מדי, חוסר עמוד שדרה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z29",
+    "organ": "גבות",
+    "condition": "גבה אחת גבוהה מהשנייה",
+    "meaning": "ספקות מתמידים, חוסר הכרעה בין טוב לרע",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z30",
+    "organ": "גבות",
+    "condition": "קשתיות ויפות",
+    "meaning": "הרמוניה רגשית, חן וחסד המוקרן לסביבה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z90",
+    "organ": "גבות",
+    "condition": "רחוקות זו מזו",
+    "meaning": "פתיחות מחשבתית, חוסר דאגה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": {
+     "key": "browGapRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z91",
+    "organ": "גבות",
+    "condition": "קרובות מאוד (כמעט נוגעות)",
+    "meaning": "דאגנות, נטייה להתכנסות, קפדנות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "browGapRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z109",
+    "organ": "גבות",
+    "condition": "שערות בולטות לכל עבר",
+    "meaning": "חוסר סדר פנימי, בלבול מחשבתי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B43",
+    "organ": "גבות",
+    "condition": "גבות ארוכות מאוד",
+    "meaning": "זד, יהיר וגס רוח",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "browLengthRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "B44",
+    "organ": "גבות",
+    "condition": "גבות מחוברות",
+    "meaning": "איש יגון ודאגה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 15,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פנימיות"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": "אין בזוהר; במאגר עצמו Z27 (גבות עבות ומחוברות) = דינים — עקבי עם גבורה"
+    }
+   }
+  ],
+  "שיער": [
+   {
+    "id": "Z31",
+    "organ": "שיער",
+    "condition": "שחור וקשה",
+    "meaning": "דינים קשים (סערא דחמירא), אופי נוקשה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z32",
+    "organ": "שיער",
+    "condition": "לבן בגיל צעיר",
+    "meaning": "נשמה מעולם הרחמים, ניסיון חיים מגלגול קודם",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"שערא חורא מסטרא דחסד\""
+    }
+   },
+   {
+    "id": "Z33",
+    "organ": "שיער",
+    "condition": "אדמוני (ג'ינג'י)",
+    "meaning": "נטייה לדין אקטיבי, כעס, אך גם גבורה דקדושה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"סוקמא מסטרא דגבורה\""
+    }
+   },
+   {
+    "id": "Z34",
+    "organ": "שיער",
+    "condition": "מקורזל מאוד",
+    "meaning": "אופי מסובך, קשיים בתיקון המידות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z35",
+    "organ": "שיער",
+    "condition": "התקרחות בקדמת הראש",
+    "meaning": "גילוי אורות החכמה, אדם משכיל ופתוח",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור: שיער מרוט כנגד מקום התפילין לפני הזקנה — מצליח אך רמאי, ירא חטא רק כלפי חוץ; לאחר הזקנה מתהפך. הפירוש החיובי במאגר סותר"
+    }
+   },
+   {
+    "id": "Z36",
+    "organ": "שיער",
+    "condition": "התקרחות באחורי הראש",
+    "meaning": "אובדן ה\"אחוריים\", חולשה בהתמודדות עם היצר",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z37",
+    "organ": "שיער",
+    "condition": "רך וחלק",
+    "meaning": "אופי נוח, גמישות, נטייה לחסד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z38",
+    "organ": "שיער",
+    "condition": "המכסה את האוזניים",
+    "meaning": "חוסר רצון לשמוע תוכחה, הסתגרות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "שיער התלוי על האוזניים = דינים הסוגרים את שערי השמיעה והתפילה; \"צריך לבערא לון מבתר אודנין\""
+    }
+   },
+   {
+    "id": "Z92",
+    "organ": "שיער",
+    "condition": "מלבין רק בצדדים (פאות)",
+    "meaning": "תחילת כניסת המוחין דזקנה, בינה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"שערא חורא מסטרא דחסד\" — שיער לבן = צד החסד"
+    }
+   },
+   {
+    "id": "Z110",
+    "organ": "שיער",
+    "condition": "שומני מאוד",
+    "meaning": "עודף \"לחות\" – נטייה לעצבות או חומריות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B36",
+    "organ": "שיער",
+    "condition": "שיער חום",
+    "meaning": "איש טוב ואוהב כבוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B37",
+    "organ": "שיער",
+    "condition": "שיער שחור",
+    "meaning": "מהיר וזריז במלאכתו ואינו מגלה סוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "ביצוע",
+     "נאמנות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net; זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "שיער שחור: לפעמים מצליח, שותפות רק לזמן קצר (זוהר); שחור = מלכות (זוהר חדש). התחום העסקי מאומת"
+    }
+   },
+   {
+    "id": "B38",
+    "organ": "שיער",
+    "condition": "שיער עבה וגס",
+    "meaning": "חוזק הלב",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz; זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "\"שערא איהי דינא\" — השערות הן כוחות הדין"
+    }
+   },
+   {
+    "id": "B39",
+    "organ": "שיער",
+    "condition": "שיער רך ודק",
+    "meaning": "רוך לב",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B40",
+    "organ": "שיער",
+    "condition": "שיער מקורזל העולה כלפי מעלה על הראש (זוהר)",
+    "meaning": "רגזן גדול; ראוי להתרחק ממנו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה",
+     "אינו לשותפות"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B41",
+    "organ": "שיער",
+    "condition": "שיער חלק ושוכב, יורד ותלוי (זוהר)",
+    "meaning": "טוב לשותפות — השותפים מצליחים עמו; לבדו אינו כן",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 13,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "טוב לשותפות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B42",
+    "organ": "שיער",
+    "condition": "שיער שחור שאינו מבהיק (זוהר)",
+    "meaning": "לפעמים מצליח ולפעמים לא; אינו לשותפות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 14,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "אינו לשותפות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "אוזניים": [
+   {
+    "id": "Z39",
+    "organ": "אוזניים",
+    "condition": "גדולות ובשרניות",
+    "meaning": "בינה רחבה, יכולת הכלה והבנה עמוקה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור: \"מי שאזניו גדולות — טפשות בלבו ושגעון ברוחו\". הפירוש במאגר (בינה רחבה) הפוך"
+    }
+   },
+   {
+    "id": "Z40",
+    "organ": "אוזניים",
+    "condition": "קטנות וצמודות",
+    "meaning": "אדם סגור, קושי בקבלת דעות שונות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור: אוזניים קטנות העומדות על מעמדן כראוי — חכם לב עם התעוררות. הפירוש במאגר (אדם סגור) הפוך"
+    }
+   },
+   {
+    "id": "Z41",
+    "organ": "אוזניים",
+    "condition": "שערות בתוך נקב האוזן",
+    "meaning": "שמירה מפני \"קולות חיצוניים\", צניעות בשמיעה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z42",
+    "organ": "אוזניים",
+    "condition": "תנוך האוזן ארוך",
+    "meaning": "אריכות ימים, יכולת לספוג ולהמתין",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z43",
+    "organ": "אוזניים",
+    "condition": "אדומות תמיד",
+    "meaning": "בושה פנימית או כעס אצור",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z96",
+    "organ": "אוזניים",
+    "condition": "תנוך מחובר ללחי",
+    "meaning": "חוסר עצמאות, צורך באישור חברתי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z97",
+    "organ": "אוזניים",
+    "condition": "תנוך חופשי",
+    "meaning": "אינדיבידואליזם, יכולת חשיבה עצמאית",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N5",
+    "organ": "אוזניים",
+    "condition": "אוזניים אליפטיות",
+    "meaning": "עקשנות, יוזמה, קושי לסלוח, זקוקים לחופש ומרחב",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "N6",
+    "organ": "אוזניים",
+    "condition": "תנוך חופשי",
+    "meaning": "אינדיבידואליזם, יכולת חשיבה עצמאית",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N7",
+    "organ": "אוזניים",
+    "condition": "תנוך מחובר ללחי",
+    "meaning": "חוסר עצמאות, צורך באישור חברתי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B70",
+    "organ": "אוזניים",
+    "condition": "אוזניים ארוכות ורחבות מאוד",
+    "meaning": "מגלה חרפתו; עצל",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 19,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חוסר אמינות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B71",
+    "organ": "אוזניים",
+    "condition": "אוזניים צמודות מאוד לראש",
+    "meaning": "בעל יגון ודאגה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 19,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פנימיות"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "חוטם": [
+   {
+    "id": "Z44",
+    "organ": "חוטם",
+    "condition": "ישר וממוצע",
+    "meaning": "מידת האמת, איזון בין ימין לשמאל",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z45",
+    "organ": "חוטם",
+    "condition": "כפוף (נשרי)",
+    "meaning": "פיקחות, ראייה למרחוק, לעיתים ערמומיות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz; פרדס רמונים ח יא, כג א (ויקיטקסט)",
+     "note": "החוטם = תפארת, והנשר = החיה שהתפארת רוכבת עליה. הקישור \"חוטם נשרי\" ← נשר הוא היסק, לא לשון מפורש"
+    }
+   },
+   {
+    "id": "Z46",
+    "organ": "חוטם",
+    "condition": "נחיריים רחבים",
+    "meaning": "\"ארך אפיים\", סבלנות רבה או כעס גדול",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "noseWidthRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z47",
+    "organ": "חוטם",
+    "condition": "נחיריים צרים",
+    "meaning": "קוצר רוח, קפדנות, חוסר סבלנות לפרטים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "noseWidthRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z48",
+    "organ": "חוטם",
+    "condition": "קצר וסולד",
+    "meaning": "עליזות, חוסר עומק, אופי קליל",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "noseLengthRatio",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z49",
+    "organ": "חוטם",
+    "condition": "ארוך מאוד",
+    "meaning": "התמשכות הדינים, אופי כבד ומלנכולי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": {
+     "key": "noseLengthRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z98",
+    "organ": "חוטם",
+    "condition": "רחב מאוד בבסיסו",
+    "meaning": "יציבות כלכלית, חיבור טוב למציאות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z99",
+    "organ": "חוטם",
+    "condition": "דק מאוד בבסיסו",
+    "meaning": "רגישות קיצונית, אנינות טעם, חולשה פיזית",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "N8",
+    "organ": "חוטם",
+    "condition": "אף קטן + פה קטן",
+    "meaning": "אסטרטג מלידה — שילוב מחזק",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B52",
+    "organ": "חוטם",
+    "condition": "חוטם ארוך ומלא בחלקו התחתון",
+    "meaning": "חכם, נאמן בסתר וחסיד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "נאמנות",
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אריכות בפנים ובחוטם = רחמים (\"דא רחמי ודא דינא\"), כנגד הקמוט שהוא דין"
+    }
+   },
+   {
+    "id": "B53",
+    "organ": "חוטם",
+    "condition": "חוטם יפה, בינוני או קצר",
+    "meaning": "ממהר לכעוס",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "noseLengthRatio",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "B54",
+    "organ": "חוטם",
+    "condition": "חוטם נקי וחלק בכל מקום",
+    "meaning": "בעל שלום, נאמן, נחת רוח ושומר סוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "תפארת",
+     "יציבות"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B55",
+    "organ": "חוטם",
+    "condition": "חוטם גדול ונחיריים רחבים",
+    "meaning": "יותר תם מחכם; בעל מחלוקות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "noseWidthRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   }
+  ],
+  "שפתיים": [
+   {
+    "id": "Z50",
+    "organ": "שפתיים",
+    "condition": "עבות ובשרניות",
+    "meaning": "נטייה לתאוות חומריות, אך גם נדיבות בדיבור",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "lipThicknessRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור: שפתיים גדולות — לשון הרע ומחלוקת; שפתיים עבות — בעל כעס ביותר. הפירוש במאגר (נדיבות) סותר; כלל B60 במאגר תואם את הזוהר"
+    }
+   },
+   {
+    "id": "Z51",
+    "organ": "שפתיים",
+    "condition": "דקות ומתוחות",
+    "meaning": "קפדנות, ביקורתיות, שליטה עצמית גבוהה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "lipThicknessRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z52",
+    "organ": "שפתיים",
+    "condition": "שפה עליונה בולטת",
+    "meaning": "שלטון המחשבה על המעשה, אדם תיאורטי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "upperToLowerLip",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z53",
+    "organ": "שפתיים",
+    "condition": "שפה תחתונה בולטת",
+    "meaning": "שלטון המעשה והחומר, אדם פרקטי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "upperToLowerLip",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z54",
+    "organ": "שפתיים",
+    "condition": "פינות פה נוטות למעלה",
+    "meaning": "אופטימיות נשמתית, הכרת הטוב",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "mouthCornerTilt",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": true
+    },
+    "verification": null
+   },
+   {
+    "id": "Z55",
+    "organ": "שפתיים",
+    "condition": "פינות פה נוטות למטה",
+    "meaning": "מרירות, נטייה לתלונות, \"דינים\" בפה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "mouthCornerTilt",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": true
+    },
+    "verification": null
+   },
+   {
+    "id": "Z100",
+    "organ": "שפתיים",
+    "condition": "שפה עליונה מחורצת",
+    "meaning": "פיקחות בדיבור, יכולת שכנוע",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N9",
+    "organ": "שפתיים",
+    "condition": "פה קטן מאוד",
+    "meaning": "שתיקה יפה לחכמים, שמירת סוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "mouthWidthRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אין כלל לפה קטן; בזוהר חדש הפה = מלכות"
+    }
+   },
+   {
+    "id": "B58",
+    "organ": "שפתיים",
+    "condition": "שפה עליונה מכסה את התחתונה",
+    "meaning": "עזות פנים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B59",
+    "organ": "שפתיים",
+    "condition": "שפתיים לא שוות — אחת גדולה מחברתה",
+    "meaning": "יותר תם מחכם; לפעמים מצליח",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "lipAsymmetry",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "B60",
+    "organ": "שפתיים",
+    "condition": "שפתיים עבות מאוד",
+    "meaning": "רגזן גדול, בעל מחלוקת ולשון הרע; קשה לו לקבל דברים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה",
+     "חוסר אמינות"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "lipThicknessRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   }
+  ],
+  "שיניים": [
+   {
+    "id": "Z56",
+    "organ": "שיניים",
+    "condition": "לבנות וישרות",
+    "meaning": "טהרת הדיבור, אדם שדבריו נשמעים באהבה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z57",
+    "organ": "שיניים",
+    "condition": "קטנות ורווחים ביניהן",
+    "meaning": "בזבזנות, קושי בשמירת סוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z58",
+    "organ": "שיניים",
+    "condition": "בולטות",
+    "meaning": "תוקפנות מילולית, רצון להשפיע בכוח",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z103",
+    "organ": "שיניים",
+    "condition": "צהובות (טבעי)",
+    "meaning": "דינים בביטוי, אופי קשה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B61",
+    "organ": "שיניים",
+    "condition": "שיניים קטנות, קצרות ודקות",
+    "meaning": "חכם ומבין, נחת רוח",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "סנטר": [
+   {
+    "id": "Z59",
+    "organ": "סנטר",
+    "condition": "מחודד וחזק",
+    "meaning": "כוח רצון, עקשנות חיובית, חתירה למטרה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "jawToCheekRatio",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z60",
+    "organ": "סנטר",
+    "condition": "כפול (בשרני)",
+    "meaning": "יציבות, נטייה לנוחות וחומריות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z61",
+    "organ": "סנטר",
+    "condition": "גומה בסנטר",
+    "meaning": "חן טבעי, רצון למצוא חן בעיני הבריות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "לחיים": [
+   {
+    "id": "Z62",
+    "organ": "לחיים",
+    "condition": "נפוחות ואדומות",
+    "meaning": "שובע, סיפוק, לעיתים גאווה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אדמימות בפנים = צד הגבורה (שני גווני הפנים: לבן = חסד, אדום = גבורה)"
+    }
+   },
+   {
+    "id": "Z63",
+    "organ": "לחיים",
+    "condition": "שקועות וחוורות",
+    "meaning": "צער, סיגוף, פרישות מהעולם",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z104",
+    "organ": "לחיים",
+    "condition": "גומות חן",
+    "meaning": "חן דקדושה, יכולת למשוך אנשים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B66",
+    "organ": "לחיים",
+    "condition": "לחיים ארוכות",
+    "meaning": "רגזן",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 18,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B67",
+    "organ": "לחיים",
+    "condition": "לחיים קצרות",
+    "meaning": "צר עין",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 18,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "צרות עין"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "עור": [
+   {
+    "id": "Z64",
+    "organ": "עור",
+    "condition": "יבש ונוקשה",
+    "meaning": "שליטת הדינים, קושי בשינוי הרגלים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z65",
+    "organ": "עור",
+    "condition": "לח ומבריק",
+    "meaning": "שפע חסדים, בריאות הנפש והגוף",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z66",
+    "organ": "עור",
+    "condition": "נקודות חן כהות מרובות",
+    "meaning": "ניצוצות קדושה הדורשים בירור ותיקון",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "קול": [
+   {
+    "id": "Z67",
+    "organ": "קול",
+    "condition": "עמוק ונמוך",
+    "meaning": "סמכותיות, בינה עילאית, ביטחון",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": "אין בפרשת יתרו כללים לקול"
+    }
+   },
+   {
+    "id": "Z68",
+    "organ": "קול",
+    "condition": "דק וגבוה",
+    "meaning": "רגישות, פחד, צורך בהגנה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": "אין בפרשת יתרו כללים לקול"
+    }
+   },
+   {
+    "id": "Z69",
+    "organ": "קול",
+    "condition": "צרוד",
+    "meaning": "פגם בצינורות התקשורת הרוחניים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B62",
+    "organ": "קול",
+    "condition": "קול בינוני — לא גבוה ולא נמוך",
+    "meaning": "נאמן וצדיק",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B63",
+    "organ": "קול",
+    "condition": "קול גס ועבה",
+    "meaning": "בעל מחלוקת",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "צוואר": [
+   {
+    "id": "Z70",
+    "organ": "צוואר",
+    "condition": "ארוך ודק",
+    "meaning": "שאיפה לרוחניות, אך קושי בחיבור למציאות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z71",
+    "organ": "צוואר",
+    "condition": "קצר ועבה",
+    "meaning": "חיבור חזק לחומר, כוח ביצוע, עקשנות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "בעל העיניים האדומות \"קמיט\" בפניו, בחוטמו, בצווארו ובגופו — דין; כנגד \"אריך\" שהוא רחמים"
+    }
+   },
+   {
+    "id": "B72",
+    "organ": "צוואר",
+    "condition": "צוואר ארוך",
+    "meaning": "בעל מורא וחלש",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 19,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "במקור אריכות הצוואר נמנית עם צד הרחמים; הפירוש מהספר (בעל מורא וחלש) והקו גבורה אינם תואמים"
+    }
+   }
+  ],
+  "כתפיים": [
+   {
+    "id": "Z72",
+    "organ": "כתפיים",
+    "condition": "רחבות",
+    "meaning": "יכולת נשיאה באחריות ציבורית, חוסן",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z73",
+    "organ": "כתפיים",
+    "condition": "שמוטות",
+    "meaning": "תחושת ייאוש, חוסר אמונה בכוח העצמי",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B73",
+    "organ": "כתפיים",
+    "condition": "כתפיים רחבות וגדולות",
+    "meaning": "נאמן, חכם ובעל עבודה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 20,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "חכמה",
+     "ביצוע"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B74",
+    "organ": "כתפיים",
+    "condition": "כתפיים צרות ורזות",
+    "meaning": "בעל מורא ובעל שלום",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 20,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "ידיים": [
+   {
+    "id": "Z74",
+    "organ": "ידיים",
+    "condition": "כף יד רחבה ובשרנית",
+    "meaning": "נדיבות, רצון להעניק, כלי קיבול לשפע",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "palmWidthToLength",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "Z75",
+    "organ": "ידיים",
+    "condition": "כף יד צרה וארוכה",
+    "meaning": "אצילות, עדינות, נטייה לאמנות ורוח",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": {
+     "key": "palmWidthToLength",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אריכות האיברים (\"אריך בדרעוי\") = רחמים"
+    }
+   },
+   {
+    "id": "Z111",
+    "organ": "ידיים",
+    "condition": "קו הלב מגיע לאצבע המורה",
+    "meaning": "יכולת אהבה והקרבה גדולה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z112",
+    "organ": "ידיים",
+    "condition": "קו הראש (השכל) קצר",
+    "meaning": "מעשיות ללא מחשבה עמוקה, אימפולסיביות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z113",
+    "organ": "ידיים",
+    "condition": "יד קרה תמיד",
+    "meaning": "חוסר חיוניות, פחד, שליטת הדינים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z114",
+    "organ": "ידיים",
+    "condition": "יד חמה ומזיעה",
+    "meaning": "עודף מרץ, נטייה לכעס או התלהבות יתרה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B75",
+    "organ": "ידיים",
+    "condition": "ידיים ארוכות ואצבעות ארוכות",
+    "meaning": "נאמן בשליחות, חכם ומבין במלאכה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 20,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "חכמה",
+     "ביצוע"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אריכות הזרועות והאיברים = רחמים"
+    }
+   },
+   {
+    "id": "B76",
+    "organ": "ידיים",
+    "condition": "אצבעות קצרות וגסות",
+    "meaning": "בעל עבודה ונאמן, ממהר לכעוס ולהאמין",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 20,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "ביצוע",
+     "נאמנות",
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "איברים קצרים וקמוטים = דין"
+    }
+   },
+   {
+    "id": "B77",
+    "organ": "ידיים",
+    "condition": "ידיים רכות ודקות",
+    "meaning": "חכם ומבין, בעל שלום, צנוע ולמדן",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 20,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "אצבעות": [
+   {
+    "id": "Z76",
+    "organ": "אצבעות",
+    "condition": "ארוכות ודקות",
+    "meaning": "פיקחות, יכולת ניתוח פרטים, רוחניות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "middleFingerToPalm",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אריכות האיברים = רחמים"
+    }
+   },
+   {
+    "id": "Z77",
+    "organ": "אצבעות",
+    "condition": "קצרות ועבות",
+    "meaning": "מעשיות, עבודה פיזית, חוסר סבלנות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "middleFingerToPalm",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "איברים קצרים וקמוטים = דין"
+    }
+   },
+   {
+    "id": "Z78",
+    "organ": "אצבעות",
+    "condition": "אגודל גדול וחזק",
+    "meaning": "שליטה עצמית גבוהה, מנהיגות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "thumbToPalm",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z115",
+    "organ": "אצבעות",
+    "condition": "מורה ארוכה מהקמיצה",
+    "meaning": "שאיפה לשלטון וסמכות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "indexToRing",
+     "when": "מורה ארוכה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z116",
+    "organ": "אצבעות",
+    "condition": "קמיצה ארוכה מהמורה",
+    "meaning": "נטייה לאמנות, חן, רגישות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "indexToRing",
+     "when": "קמיצה ארוכה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B30",
+    "organ": "אצבעות",
+    "condition": "אצבעות צמודות, בלי רווח ביניהן כשהיד פשוטה",
+    "meaning": "\"ידיים מלאות\" — ממונו נשמר",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 2,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה",
+     "יציבות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B31",
+    "organ": "אצבעות",
+    "condition": "רווח ניכר בין האצבעות כשהיד פשוטה",
+    "meaning": "חיסרון והצלחה מועטת באותה תקופה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 2,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "קושי במסחר"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "קווים ביד": [
+   {
+    "id": "Z79",
+    "organ": "קווים ביד",
+    "condition": "קו החיים ארוך וברור",
+    "meaning": "חיוניות רבה, תיקון נשמתי שלם",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z80",
+    "organ": "קווים ביד",
+    "condition": "מרובים ומסובכים (\"רשת\")",
+    "meaning": "נשמה מורכבת עם גלגולים, דאגנות יתרה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z81",
+    "organ": "קווים ביד",
+    "condition": "שרטוט דמוי 'מ'",
+    "meaning": "חיבור לספירת המלכות, כוח הנהגה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z82",
+    "organ": "קווים ביד",
+    "condition": "שרטוט דמוי 'ש'",
+    "meaning": "חיבור לשלושת האבות (חג\"ת), איזון",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B1",
+    "organ": "קווים ביד",
+    "condition": "קו החיים ארוך, רחב, יפה ואינו נפסק",
+    "meaning": "חיות טובה ויציבות; סימן טוב לכל הימים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 3,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "יציבות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B2",
+    "organ": "קווים ביד",
+    "condition": "קו החכמה (מבין האגודל לאצבע המורה) ארוך, עבה וצבעו טוב",
+    "meaning": "חכם ויודע, ירא חטא",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 4,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "נאמנות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "הזוהר קובע רק שקווי היד משתנים לפי מעשי האדם, לפעמים בדין ולפעמים ברחמים"
+    }
+   },
+   {
+    "id": "B3",
+    "organ": "קווים ביד",
+    "condition": "קו החכמה דק וקצר",
+    "meaning": "מיעוט חכמה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 4,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B4",
+    "organ": "קווים ביד",
+    "condition": "קו הכבוד ארוך עד קו הראש, עבה וצבעו טוב",
+    "meaning": "טוב לו כל ימיו; לא יבוא לידי חרפה ולא יצטרך לבריות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 4,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה",
+     "יציבות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B5",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן (הפרנסה) רחב",
+    "meaning": "שולחן טוב ופרנסה רחבה; נהנה מממונו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 5,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה",
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B6",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן צר",
+    "meaning": "אף אם עשיר — קמצן ואינו נהנה מממונו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 4,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "צרות עין"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B7",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן עם ענפים כעלי לולב העולים למעלה",
+    "meaning": "מזל טוב ועולה מעלה מעלה; \"לב עשיר\"",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 5,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B8",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן מגיע עד בין האצבע השנייה לשלישית",
+    "meaning": "רגזן גדול ובעל מחלוקות; רוצה למשול ולהשתרר על כל אדם",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 5,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה",
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B9",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן נדבק בקו החכמה",
+    "meaning": "יוהרה ובעל מחלוקת גדול",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 5,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B10",
+    "organ": "קווים ביד",
+    "condition": "קו המזל ארוך ורחב, אינו נפסק ואינו עקום",
+    "meaning": "טוב כל ימיו; מושל ומשכיל ולא יצטרך לבריות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 5,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "הנהגה",
+     "חכמה",
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B11",
+    "organ": "קווים ביד",
+    "condition": "קו נוסף מקביל לקו החיים, ארוך ורחב",
+    "meaning": "מרומז על עשירות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 6,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B12",
+    "organ": "קווים ביד",
+    "condition": "קווים רוחביים מהאגודל אל קו החיים",
+    "meaning": "אינו יכול לשבת במקום אחד; נודד בין מקומות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 6,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פיזור"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B13",
+    "organ": "קווים ביד",
+    "condition": "ענפים כעלי לולב בראש קו החיים",
+    "meaning": "סימן טוב מאוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 7,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B14",
+    "organ": "קווים ביד",
+    "condition": "שניים-שלושה \"כוכבים\" בתחילת קו החיים",
+    "meaning": "זקנה, עושר וכבוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 7,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B15",
+    "organ": "קווים ביד",
+    "condition": "קווים החוצים את קו הראש",
+    "meaning": "בעל מחלוקת גדול, אפילו עם אביו ואמו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 7,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B16",
+    "organ": "קווים ביד",
+    "condition": "קו הראש קצר ואינו מגיע לקו המזל",
+    "meaning": "מיעוט חכמה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 7,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B17",
+    "organ": "קווים ביד",
+    "condition": "קו הראש ארוך ומגיע עד שטח היד",
+    "meaning": "ירא חטא, חכם במלאכות, ועל ידי זה בא לעשירות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 8,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "ביצוע",
+     "פרנסה",
+     "נאמנות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B18",
+    "organ": "קווים ביד",
+    "condition": "קו הראש מתפצל לשניים בקצהו",
+    "meaning": "למדן — אף שאינו נראה כלמדן, למדן בלבו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 8,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "פנימיות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B19",
+    "organ": "קווים ביד",
+    "condition": "נקודות על קו הראש",
+    "meaning": "מזג טוב, איש צנוע",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 8,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד",
+     "יציבות"
+    ],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B20",
+    "organ": "קווים ביד",
+    "condition": "כלל: קו הראש ארוך ורחב בלא הפסק",
+    "meaning": "חכמה ויישוב הראש; קצר, צר או נפסק — להפך",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 8,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B21",
+    "organ": "קווים ביד",
+    "condition": "קו הכבוד, קו החיים וקו הראש יוצרים משולש",
+    "meaning": "עושר גדול וכבוד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 9,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B22",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן עקום",
+    "meaning": "אינו מוצלח במקח וממכר ובשווקים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 9,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "קושי במסחר"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B23",
+    "organ": "קווים ביד",
+    "condition": "ענפי לולב בקצה השני של קו השולחן",
+    "meaning": "הממון יתחזק",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 9,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פרנסה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B24",
+    "organ": "קווים ביד",
+    "condition": "קווים קטנים ישרים העומדים בשורה על קו השולחן",
+    "meaning": "אדם טוב וירא ה׳ (ואם אינם בשורה — להפך)",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 9,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "חסד"
+    ],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B25",
+    "organ": "קווים ביד",
+    "condition": "קו היוצא מבין הגודל לאצבע המורה",
+    "meaning": "יגבר על שונאיו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 9,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B26",
+    "organ": "קווים ביד",
+    "condition": "קו מקו הראש עד תחת האצבע השנייה, עם \"כוכבים\"",
+    "meaning": "מעלה וכבוד; \"במלחמה יהיה לראש\"",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 10,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "כנ\"ל"
+    }
+   },
+   {
+    "id": "B27",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן מתפצל בקצהו",
+    "meaning": "סימן טוב",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 10,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B28",
+    "organ": "קווים ביד",
+    "condition": "קו השולחן מתפצל בתחילתו",
+    "meaning": "בעל דאגה ואינו מצליח בנכסים",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 10,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "קושי במסחר"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B29",
+    "organ": "קווים ביד",
+    "condition": "לקו השולחן שני ענפים — לאצבע המורה ולקו החיים",
+    "meaning": "חיים טובים ומעמד של למדן גדול",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 10,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "ציפורניים": [
+   {
+    "id": "Z83",
+    "organ": "ציפורניים",
+    "condition": "רחבות וקצרות",
+    "meaning": "אופי לוחמני, נטייה להתווכח",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z84",
+    "organ": "ציפורניים",
+    "condition": "ארוכות ומטופחות",
+    "meaning": "אסתטיקה, סדר פנימי, עדינות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z117",
+    "organ": "ציפורניים",
+    "condition": "כתמים לבנים על הציפורניים",
+    "meaning": "סימנים למתח רוחני או חוסר באורות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "סתירה למקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור: נקודות לבנות שקועות בציפורניים כזרע עדשים — סימן טוב, שמחה והצלחה או הצלה מגזירה; שאינן שקועות — אין בהן ממש. הפירוש השלילי במאגר סותר"
+    }
+   },
+   {
+    "id": "B78",
+    "organ": "ציפורניים",
+    "condition": "ציפורניים רחבות",
+    "meaning": "חכם וגיבור",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 21,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "זקן": [
+   {
+    "id": "Z93",
+    "organ": "זקן",
+    "condition": "ארוך ומלא",
+    "meaning": "הנהגת חסד, השפעה רוחנית רחבה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z94",
+    "organ": "זקן",
+    "condition": "קצר ומסודר",
+    "meaning": "הנהגת דין ומלכות, סדר ומשמעת",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z95",
+    "organ": "זקן",
+    "condition": "חוסר שיער בלחיים (זקן תיש)",
+    "meaning": "חולשת החסדים, נטייה לבידוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "B68",
+    "organ": "זקן",
+    "condition": "זקן מסודר בשורה ושערותיו יפות",
+    "meaning": "טוב בטבעו, חכם, בעל מידות טובות",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 18,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד",
+     "חכמה"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "פה": [
+   {
+    "id": "Z101",
+    "organ": "פה",
+    "condition": "קטן מאוד",
+    "meaning": "שתיקה יפה לחכמים, שמירת סוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "mouthWidthRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "אין כלל לפה קטן; הפה = מלכות"
+    }
+   },
+   {
+    "id": "Z102",
+    "organ": "פה",
+    "condition": "גדול ופתוח במנוחה",
+    "meaning": "פטפטנות, חוסר סינון של מחשבות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B56",
+    "organ": "פה",
+    "condition": "פה קטן",
+    "meaning": "אינו מאמין לכל אדם, בעל שלום ולמדן; אינו אוכל הרבה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 16,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": {
+     "key": "mouthWidthRatio",
+     "when": "נמוך",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "verification": null
+   },
+   {
+    "id": "B57",
+    "organ": "פה",
+    "condition": "פה רחב וגדול",
+    "meaning": "זולל ותרן; בעל מלחמה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 17,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חסד",
+     "גבורה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "mouthWidthRatio",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "line_previous": "גבורה",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "במקור, במצח הגדול שאינו עגול: \"מצחק לחנם, פיו גדול, איש שאין בו תועלת\" — מאשר את החיסרון, לא קו"
+    }
+   }
+  ],
+  "פנים": [
+   {
+    "id": "Z119",
+    "organ": "פנים",
+    "condition": "מאורכות (סגלגלות)",
+    "meaning": "אינטלקטואליות, פרישות, עומק",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": {
+     "key": "faceHeightToWidth",
+     "when": "גבוה",
+     "partial": false,
+     "needs_neutral": false
+    },
+    "line_previous": "ללא קו",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר חדש יתרו (מאמרים: ואתה תחזה, ד' גווני עינא, עיינין חוורין, עיינין סומקין): hebrew.grimoar.cz",
+     "note": "\"אריך באנפוי\" = רחמים"
+    }
+   },
+   {
+    "id": "Z120",
+    "organ": "פנים",
+    "condition": "עגולות (מלאות)",
+    "meaning": "חברתיות, שמחה, זרימה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": {
+     "key": "faceHeightToWidth",
+     "when": "נמוך",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z121",
+    "organ": "פנים",
+    "condition": "מרובעות",
+    "meaning": "יציבות, עקשנות, אמינות",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": {
+     "key": "jawToCheekRatio",
+     "when": "גבוה",
+     "partial": true,
+     "needs_neutral": false
+    },
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   },
+   {
+    "id": "Z122",
+    "organ": "פנים",
+    "condition": "ירוקות/חוורות מאוד",
+    "meaning": "חולשה רוחנית, השפעת כוחות חיצוניים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z123",
+    "organ": "פנים",
+    "condition": "מאירות (זהובות)",
+    "meaning": "חיבור לאור החכמה, שלווה פנימית",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "\"צהיבת הפנים\" נמנית בזוהר כסימן, בלי פירוש"
+    }
+   }
+  ],
+  "תיקון נשמה עתיקה": [
+   {
+    "id": "Z281",
+    "organ": "תיקון נשמה עתיקה",
+    "condition": "שיער לבן בצעירותו (62) + 3 קמטים ישרים (3) + עיניים שקועות (34) + קול נמוך (121)",
+    "meaning": "נשמה שבאה לתקן עוונות מגלגול קודם; אדם בעל בינה עילאית שזכה לזקנה רוחנית בטרם עת.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "מארי דרזין (בעל סודות)": [
+   {
+    "id": "Z282",
+    "organ": "מארי דרזין (בעל סודות)",
+    "condition": "עיניים ירוקות-כהות (40) + חוטם נשרי (89) + פה קטן מאוד (105) + שרטוט 'ש' ביד (150)",
+    "meaning": "אדם המסוגל להשיג סתרי תורה; שומר סוד מטבעו ובעל הגנה רוחנית משלושת האבות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "עיניים ירוקות ולבנות עם מעט שחור — \"בעל סוד ומצליח בהם... מושל עליהם\". שאר רכיבי הצירוף — אין מקור"
+    }
+   }
+  ],
+  "דין קשה וסכנה": [
+   {
+    "id": "Z283",
+    "organ": "דין קשה וסכנה",
+    "condition": "שיער מקורזל (65) + מצח קטן וחד (13) + עיניים בולטות (35) + ציפורניים שקועות (45)",
+    "meaning": "אזהרה מפני אדם בעל נטיות אלימות או חוסר יושר קיצוני; הדינים שולטים בו ללא מיתוק.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "הארת פנים עילאית": [
+   {
+    "id": "Z284",
+    "organ": "הארת פנים עילאית",
+    "condition": "עור מבריק (8) + לחיים ורודות (114) + עפעפיים ארוכים (36) + הליכה לימין (161) + מבט ישר (30)",
+    "meaning": "אדם שזכה לזיכוך החומר; סימן לצדיק שמידותיו מתוקנות ושורה עליו השכינה.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "הפכפכות רוחנית": [
+   {
+    "id": "Z285",
+    "organ": "הפכפכות רוחנית",
+    "condition": "צבע עין משתנה (38) + קמטים שבורים (19) + קול גבוה ודק (122) + ידיים מזיעות (154)",
+    "meaning": "",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "דיוקן ה\"חסיד עילאה\"": [
+   {
+    "id": "Z361",
+    "organ": "דיוקן ה\"חסיד עילאה\"",
+    "condition": "מצח חלק (8) + לובן עין צלול (26) + קמטי 'ח' (5) + זקן מלא (74) + יד בשרנית (137) + קול נמוך (121)",
+    "meaning": "נשמה שהשלימה את בירור מידת החסד; אדם שכל איבריו משועבדים להשפעה ואין בו אחיזה לסיטרא אחרא.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "דיוקן ה\"בעל מחלוקת\"": [
+   {
+    "id": "Z362",
+    "organ": "דיוקן ה\"בעל מחלוקת\"",
+    "condition": "מצח צר (2) + גבות מחוברות (52) + עיניים אדומות (27) + חוטם מקומט (97) + שפתיים דקות (99) + קול גבוה (122)",
+    "meaning": "אדם ששורש נשמתו מדינים קשים ללא מיתוק; נטייה טבעית למריבות, קפדנות וקושי לקבל את הזולת.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "דיוקן ה\"משכיל ופרוש\"": [
+   {
+    "id": "Z363",
+    "organ": "דיוקן ה\"משכיל ופרוש\"",
+    "condition": "מצח נסוג גבוה (12) + עיניים שקועות (34) + אוזניים גדולות (78) + חוטם ארוך (96) + אצבעות דקות (141) + לחיים שקועות (115)",
+    "meaning": "אדם המוקדש כולו לעולמות הבינה; יכולת הפשטה נדירה, פרישות מהנאות החומר וזיכוך המחשבה.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "דיוקן ה\"מאריה דמזלא\"": [
+   {
+    "id": "Z364",
+    "organ": "דיוקן ה\"מאריה דמזלא\"",
+    "condition": "נקודת חן במצח (12) + גומות חן (116) + שרטוט 'ש' ביד (150) + מבט ישר (30) + שיער חלק (66) + הליכה לימין (161)",
+    "meaning": "",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "דעת והנהגה": [
+   {
+    "id": "Z241",
+    "organ": "דעת והנהגה",
+    "condition": "מצח רחב (1) + חוטם נשרי (89) + קול עמוק (121) + אגודל חזק (143)",
+    "meaning": "אדם שנועד להנהיג קהילה; שילוב של חסד ברצון, פיקחות בביצוע, סמכותיות ושליטה עצמית גבוהה.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "דין ורוגז": [
+   {
+    "id": "Z242",
+    "organ": "דין ורוגז",
+    "condition": "שיער מקורזל (65) + מצח צר (2) + עיניים אדמדמות (27) + נחיריים רחבים (90)",
+    "meaning": "אופי סוער וקשה לתיקון; הדינים שולטים בכל קומות הנפש, נטייה לכעס הרסני וחוסר יישוב הדעת.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "סוד ופרישות": [
+   {
+    "id": "Z243",
+    "organ": "סוד ופרישות",
+    "condition": "עיניים שקועות (34) + שפתיים דקות (99) + מצח נסוג (22) + קול נמוך (121)",
+    "meaning": "\"מאריה דרזין\" (בעל סודות); אדם החי בעולם פנימי עמוק, פרוש מהנאות העולם ושומר על צניעות ואיפוק.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "רכיב העיניים השקועות = צד שמאל (פני שור). הצירוף עצמו — אין מקור"
+    }
+   }
+  ],
+  "תמימות וחסד": [
+   {
+    "id": "Z244",
+    "organ": "תמימות וחסד",
+    "condition": "לבן עין דומיננטי (26) + פנים עגולות (125) + כף יד בשרנית (137) + נטייה לימין (161)",
+    "meaning": "שורש נשמה מעולם הרחמים; אדם בעל עין טובה, נדיב מאוד, ונוטה תמיד ללמד זכות על הבריות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "חוסר יציבות": [
+   {
+    "id": "Z245",
+    "organ": "חוסר יציבות",
+    "condition": "מבט מתרוצץ (31) + קמטים קטועים (19) + קול דק (122) + קווי רשת ביד (148)",
+    "meaning": "נפש מפוזרת הסובלת מחרדות נסתרות; קושי להחזיק מעמד במשימות לאורך זמן ופחד משינויים.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "מרץ וחומר": [
+   {
+    "id": "Z246",
+    "organ": "מרץ וחומר",
+    "condition": "עיניים בולטות (35) + שפה תחתונה בולטת (101) + יד חמה (154) + צוואר קצר (134)",
+    "meaning": "אדם המחובר מאוד לעולם המעשה והחומר; בעל יצרים חזקים, כוח ביצוע רב ונטייה לנהנתנות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "חכמה ותיקון": [
+   {
+    "id": "Z247",
+    "organ": "חכמה ותיקון",
+    "condition": "3 קמטים ישרים (3) + אוזניים גדולות (78) + אצבעות ארוכות (141) + חוטם ישר (88)",
+    "meaning": "",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "שיער + מצח": [
+   {
+    "id": "Z177",
+    "organ": "שיער + מצח",
+    "condition": "שיער מקורזל ועולה (1) + מצח קטן וחד (9)",
+    "meaning": "אדם חם מזג באופן קיצוני (\"מאריה דרגיזו\") שגם אינו מיושב בדעתו; סכנת כעס ללא שיקול דעת.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "מצח + עיניים": [
+   {
+    "id": "Z178",
+    "organ": "מצח + עיניים",
+    "condition": "מצח רחב וחלק (8) + לבן העין דומיננטי (26)",
+    "meaning": "שורש נשמה מעולם החסד (דמות אריה); אדם שכל דבריו ומחשבותיו הם לטובת הבריות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "גבות + חוטם": [
+   {
+    "id": "Z179",
+    "organ": "גבות + חוטם",
+    "condition": "גבות מחוברות (33) + נחיריים רחבים (39)",
+    "meaning": "כוח חיות עצום המלווה בעקשנות; כעסו יוצא החוצה כ\"הבל חימה\" וקשה לעצור אותו.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "עיניים + שפתיים": [
+   {
+    "id": "Z180",
+    "organ": "עיניים + שפתיים",
+    "condition": "מבט מתרוצץ (28) + שפתיים גדולות ומלאות (41)",
+    "meaning": "אדם שאינו יודע לשמור סוד וחוסר השקט הפנימי שלו גורם לו לרכלנות ולפטפטנות מזיקה.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "Z192",
+    "organ": "עיניים + שפתיים",
+    "condition": "עיניים שקועות (22) + שפה תחתונה בולטת (44)",
+    "meaning": "",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 0,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "מצח + ידיים": [
+   {
+    "id": "Z181",
+    "organ": "מצח + ידיים",
+    "condition": "קמטים נחתכים X במצח (13) + קווי \"רשת\" ביד (72)",
+    "meaning": "נשמה מסובכת בגלגולים רבים; פיזור נפשי וייסורים הנובעים מבלבול בין טוב לרע.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "שיער + גבות": [
+   {
+    "id": "Z182",
+    "organ": "שיער + גבות",
+    "condition": "שיער שחור וקשה (3) + גבות עבות ושעירות (35)",
+    "meaning": "\"סערא דחמירא\" – דינים קשים מאוד; אדם עז פנים שאינו מקבל מרות ופועל בכוח פיזי.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "אוזניים + פה": [
+   {
+    "id": "Z183",
+    "organ": "אוזניים + פה",
+    "condition": "אוזניים בולטות (49) + פה גדול ופתוח (47)",
+    "meaning": "אדם המושפע בקלות מרכילות ומשמועות (חיצוניות) וממהר להפיצן הלאה ללא סינון.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "חוטם + סנטר": [
+   {
+    "id": "Z184",
+    "organ": "חוטם + סנטר",
+    "condition": "חוטם נשרי (40) + סנטר מחודד וחזק (111)",
+    "meaning": "שאיפה לשלטון המלווה בכוח רצון אדיר; מנהיגות שאינה נרתעת ממכשולים (קו הגבורה).",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "עיניים + עור": [
+   {
+    "id": "Z185",
+    "organ": "עיניים + עור",
+    "condition": "עפעף קופץ (30) + פצעים או גירודים (75)",
+    "meaning": "סימן למתח רוחני כתוצאה מפגמי דיבור (לשון הרע); הנשמה מנסה לפלוט \"דינים חיצוניים\".",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "מצח + שפתיים": [
+   {
+    "id": "Z186",
+    "organ": "מצח + שפתיים",
+    "condition": "מצח נסוג גבוה (20) + שפתיים דקות וקפוצות (42)",
+    "meaning": "חכם הסוד; יכולת השגת מוחין עילאיים תוך שמירה על איפוק ושתיקה יפה לחכמים.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "פנים + הליכה": [
+   {
+    "id": "Z187",
+    "organ": "פנים + הליכה",
+    "condition": "פנים מאירות זהובות (128) + נטייה לימין (67)",
+    "meaning": "אדם שזכה לתיקון המידות; כל הנהגתו במידת הרחמים והחסד ושורה עליו שלווה פנימית.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "ידיים + גוף": [
+   {
+    "id": "Z188",
+    "organ": "ידיים + גוף",
+    "condition": "כף יד רכה (66) + צעדים קצרים ומהירים (68)",
+    "meaning": "נפש עדינה ורוחנית הסובלת מחוסר סדר פנימי ומפזיזות בביצוע פעולות גשמיות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "זקן + עיניים": [
+   {
+    "id": "Z189",
+    "organ": "זקן + עיניים",
+    "condition": "זקן עבה וסבוך (7) + אישון קטן וסטטי (27)",
+    "meaning": "שילוב של חוסר יישוב דעת עם דייקנות כפייתית; עלול להעיד על אדם שנתקע בפרטים שוליים.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "מצח + גבות": [
+   {
+    "id": "Z190",
+    "organ": "מצח + גבות",
+    "condition": "3 קמטים ישרים (12) + גבות קשתיות (55)",
+    "meaning": "אדם המשלים את כל שלוש הספירות (חג\"ת); ירא שמיים, חכם ונעים לבריות.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "קול + כתפיים": [
+   {
+    "id": "Z191",
+    "organ": "קול + כתפיים",
+    "condition": "קול עמוק (69) + כתפיים רחבות (135)",
+    "meaning": "כוח נשיאה באחריות ציבורית; מנהיג טבעי בעל סמכותיות ובינה עילאית.",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "כף יד — כלל": [
+   {
+    "id": "N10",
+    "organ": "כף יד — כלל",
+    "condition": "כף יד רחבה",
+    "meaning": "נדיבות, רצון להעניק, כלי קיבול לשפע",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N12",
+    "organ": "כף יד — כלל",
+    "condition": "יד קרה תמיד",
+    "meaning": "חוסר חיוניות, פחד, שליטת הדינים",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "N13",
+    "organ": "כף יד — כלל",
+    "condition": "יד חמה ומזיעה",
+    "meaning": "עודף מרץ, נטייה לכעס או התלהבות יתרה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "כף יד — קווים": [
+   {
+    "id": "N11",
+    "organ": "כף יד — קווים",
+    "condition": "שרטוט דמוי מ'",
+    "meaning": "חיבור לספירת המלכות, כוח הנהגה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "כפילות — חכמה ואינטלקט": [
+   {
+    "id": "D1",
+    "organ": "כפילות — חכמה ואינטלקט",
+    "condition": "מצח גבוה (1) + אוזניים גדולות (39) + קו ראש עמוק (76)",
+    "meaning": "חכמה מוכחת — ודאות גבוהה מאוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "כפילות — נדיבות": [
+   {
+    "id": "D2",
+    "organ": "כפילות — נדיבות",
+    "condition": "חוטם רחב (98) + שפתיים עבות (50) + כף יד רחבה (74)",
+    "meaning": "נדיבות מוכחת — ודאות גבוהה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "כפילות — כוח הנהגה": [
+   {
+    "id": "D3",
+    "organ": "כפילות — כוח הנהגה",
+    "condition": "מצח בולט (7) + מבט ישיר (17) + אגודל גדול (78)",
+    "meaning": "מנהיג טבעי — ודאות גבוהה מאוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "צירוף — אין מקור ישיר",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "כפילות — דינים וכעס": [
+   {
+    "id": "D4",
+    "organ": "כפילות — דינים וכעס",
+    "condition": "שיער שחור קשה (31) + גבות עבות מחוברות (27) + עיניים אדמדמות (14) + נחיריים רחבים",
+    "meaning": "דינים קשים — ודאות גבוהה מאוד",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "כפילות — חוסר אמינות": [
+   {
+    "id": "D5",
+    "organ": "כפילות — חוסר אמינות",
+    "condition": "מבט מתרוצץ (18) + פינות פה מורדות (55) + קמטים קטועים",
+    "meaning": "חוסר אמינות — ודאות בינונית-גבוהה",
+    "notes": "",
+    "source": "מאגר קודם (v2.4)",
+    "source_code": "v2.4",
+    "page": null,
+    "type": "combo",
+    "type_he": "צירוף",
+    "active": true,
+    "tags": [],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "צחוק": [
+   {
+    "id": "B64",
+    "organ": "צחוק",
+    "condition": "צוחק הרבה",
+    "meaning": "אינו מיושב בדעתו ומאמין מהר",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 18,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "פיזור",
+     "חברותיות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "low",
+    "valence": -1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "line_previous": "חסד",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "זוהר ח\"ב יתרו ע ע\"ב–עו ע\"ב (רזא דרזין), תרגום עברי: ha-zohar.net",
+     "note": "\"מצחק לחנם\" נמנה בין סימני השגעון — מאשר את החיסרון, לא קו"
+    }
+   },
+   {
+    "id": "B65",
+    "organ": "צחוק",
+    "condition": "אינו צוחק הרבה",
+    "meaning": "נאמן ומיושב, חכם וצנוע",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 18,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "נאמנות",
+     "יציבות",
+     "חכמה"
+    ],
+    "line": "תפארת",
+    "line_confidence": "low",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "לא נמצא מקור",
+     "source": null,
+     "note": null
+    }
+   }
+  ],
+  "ראש": [
+   {
+    "id": "B69",
+    "organ": "ראש",
+    "condition": "ראש עגול וגדול",
+    "meaning": "צנוע, בעל חכמה וכבוד, רואה את הנולד",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 19,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "הנהגה"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "חזה": [
+   {
+    "id": "B79",
+    "organ": "חזה",
+    "condition": "חזה רחב וגדול",
+    "meaning": "גבור",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 21,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "הנהגה"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ],
+  "מזג (יסודות)": [
+   {
+    "id": "B80",
+    "organ": "מזג (יסודות)",
+    "condition": "מזג אש — חם ויבש: רזה, שיער רב וקשה",
+    "meaning": "ממהר לכעוס, זריז, עושה ומדבר במהירות ובלא מחשבה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 23,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "גבורה",
+     "ביצוע",
+     "פיזור"
+    ],
+    "line": "גבורה",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   },
+   {
+    "id": "B81",
+    "organ": "מזג (יסודות)",
+    "condition": "מזג מים — בשר רב, ישן הרבה",
+    "meaning": "נינוח ואיטי, אך חכם",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 23,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חכמה",
+     "יציבות"
+    ],
+    "line": "חסד",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "כללי"
+    ],
+    "measure": null,
+    "verification": {
+     "status": "מאומת",
+     "source": "יהל אור לגר\"א, שמות ח\"ג רנד ע\"א (ויקיטקסט); זוהר חדש ויצא (לח = מים = חסד)",
+     "note": "מים = חיית האריה = ימין = חסד"
+    }
+   },
+   {
+    "id": "B82",
+    "organ": "מזג (יסודות)",
+    "condition": "מזג עפר — קר ויבש",
+    "meaning": "קמצן, בעל יגון ואנחה",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 23,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "צרות עין",
+     "פנימיות"
+    ],
+    "line": "ללא קו",
+    "line_confidence": "high",
+    "valence": -1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "line_previous": "גבורה",
+    "verification": {
+     "status": "מאומת בעקיפין",
+     "source": "יהל אור לגר\"א, שמות ח\"ג רנד ע\"א (ויקיטקסט); זוהר חדש ויצא (לח = מים = חסד)",
+     "note": "עפר = חיית האדם (מלכות), לא גבורה — תיקון לתיוג שלי"
+    }
+   },
+   {
+    "id": "B83",
+    "organ": "מזג (יסודות)",
+    "condition": "מזג אוויר — חם ולח: צבע פנים יפה, קול מאוזן",
+    "meaning": "שמח, חכם, מיושב ונאמן; מטיב לאחרים וכל אדם אוהבו",
+    "notes": "",
+    "source": "ספר חכמת היד והפרצוף (HebrewBooks 32417)",
+    "source_code": "book_32417",
+    "page": 24,
+    "type": "single",
+    "type_he": "כלל בודד",
+    "active": true,
+    "tags": [
+     "חברותיות",
+     "חכמה",
+     "נאמנות",
+     "חסד",
+     "תפארת"
+    ],
+    "line": "תפארת",
+    "line_confidence": "high",
+    "valence": 1,
+    "domain": [
+     "עסקי",
+     "זוגי"
+    ],
+    "measure": null,
+    "verification": null
+   }
+  ]
+ },
+ "excluded": [
+  {
+   "id": "124-215",
+   "organ": "הצלבות",
+   "condition": "[שילובים של 2-3 איברים]",
+   "meaning": "[ניתוח יחסי גומלין בין המחשבה לרגש]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "216-240",
+   "organ": "הצלבות",
+   "condition": "[מצח + אוזניים / מצח + חוטם]",
+   "meaning": "[פירוט השפעת המחשבה על ביצוע המעשים]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "241-280",
+   "organ": "התאמות 4",
+   "condition": "[מצח + חוטם + קול + אגודל]",
+   "meaning": "[דיוקן הנהגה, דין, סוד או חסד]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "281-340",
+   "organ": "התאמות 5",
+   "condition": "[מצח + עין + זקן + עור + יד]",
+   "meaning": "[סימני \"קומת אדם שלמה\" - צדיק, לוחם או חכם]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "341-360",
+   "organ": "נדירים",
+   "condition": "[ורידים, כתמי לידה, רווח שיניים]",
+   "meaning": "[סימני \"רשימו\" נדירים וגלגולי נשמות]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "361-400",
+   "organ": "סיום",
+   "condition": "[6 התאמות וכללי הכרעה]",
+   "meaning": "[דיוקן הנשמה הסופי וביטול סימנים בתשובה]",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "range_placeholder",
+   "type_he": "שורת טווח ללא תוכן",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "Z281",
+   "organ": "תיקון נשמה עתיקה",
+   "condition": "שיער לבן בצעירותו (62) + 3 קמטים ישרים (3) + עיניים שקועות (34) + קול נמוך (121)",
+   "meaning": "נשמה שבאה לתקן עוונות מגלגול קודם; אדם בעל בינה עילאית שזכה לזקנה רוחנית בטרם עת.",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "duplicate",
+   "type_he": "כפולה",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "Z282",
+   "organ": "מארי דרזין (בעל סודות)",
+   "condition": "עיניים ירוקות-כהות (40) + חוטם נשרי (89) + פה קטן מאוד (105) + שרטוט 'ש' ביד (150)",
+   "meaning": "אדם המסוגל להשיג סתרי תורה; שומר סוד מטבעו ובעל הגנה רוחנית משלושת האבות.",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "duplicate",
+   "type_he": "כפולה",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "Z283",
+   "organ": "דין קשה וסכנה",
+   "condition": "שיער מקורזל (65) + מצח קטן וחד (13) + עיניים בולטות (35) + ציפורניים שקועות (45)",
+   "meaning": "אזהרה מפני אדם בעל נטיות אלימות או חוסר יושר קיצוני; הדינים שולטים בו ללא מיתוק.",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "duplicate",
+   "type_he": "כפולה",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "Z284",
+   "organ": "הארת פנים עילאית",
+   "condition": "עור מבריק (8) + לחיים ורודות (114) + עפעפיים ארוכים (36) + הליכה לימין (161) + מבט ישר (30)",
+   "meaning": "אדם שזכה לזיכוך החומר; סימן לצדיק שמידותיו מתוקנות ושורה עליו השכינה.",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "duplicate",
+   "type_he": "כפולה",
+   "active": false,
+   "tags": []
+  },
+  {
+   "id": "Z285",
+   "organ": "הפכפכות רוחנית",
+   "condition": "צבע עין משתנה (38) + קמטים שבורים (19) + קול גבוה ודק (122) + ידיים מזיעות (154)",
+   "meaning": "",
+   "notes": "",
+   "source": "מאגר קודם (v2.4)",
+   "source_code": "v2.4",
+   "page": null,
+   "type": "duplicate",
+   "type_he": "כפולה",
+   "active": false,
+   "tags": []
+  }
+ ]
+}
